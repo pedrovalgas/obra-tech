@@ -23,6 +23,7 @@ public class ProjetoEntity {
 
     private String nomeDaObra;
 
+    @Embedded
     private Endereco endereco;
 
     private LocalDateTime dataDeInicio;

@@ -28,6 +28,7 @@ public class ClienteEntity {
 
     private String email;
 
+    @Embedded
     private Endereco endereco;
 
     @OneToMany(mappedBy = "cliente")

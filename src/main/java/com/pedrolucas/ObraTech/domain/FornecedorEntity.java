@@ -28,6 +28,7 @@ public class FornecedorEntity {
 
     private String email;
 
+    @Embedded
     private Endereco endereco;
 
     @OneToMany(mappedBy = "fornecedor")

@@ -1,5 +1,8 @@
 package com.pedrolucas.ObraTech.domain;
 
+import jakarta.persistence.Embeddable;
+
+@Embeddable
 public class Endereco {
 
     private String rua;
